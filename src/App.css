@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app__subheader {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+
+  p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+}
+
+.button-spacer {
+  margin: 2rem;
+}
+
+.timeslot-grid {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeslot-grid__heading {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.timeslot-grid__slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 0.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeslot-grid__slot {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid gray;
+  color: white;
+  cursor: pointer;
+  background-color: #535bf2;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.timeslot-grid__slots-selected {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeslot-grid__slot-selected {
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
