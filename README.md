@@ -39,7 +39,7 @@ Open http://localhost:5173 in your browser.
 `viewAsAdmin` - Toggle between 'Manager' and 'Tenant' views (for now)
 `selectedDate` - Date picker to choose a specific day  
 `availability` - Slots available for booking (set by manager)  
-`booked` - Slots booked by tenant
+`booked` - Slot booked by tenant
 
 **Booking Logic**  
 Manager defines available slots per day  
